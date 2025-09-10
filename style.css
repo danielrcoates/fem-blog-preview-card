@@ -1,0 +1,92 @@
+@import url(/assets/css/fonts.css);
+@import url(/assets/css/boilerplate.css);
+
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+
+    --color-grey-500: hsl(0, 0%, 42%);
+    --color-grey-950: hsl(0, 0%, 7%);
+
+    --spacing-50: calc(4 / 16 * 1rem);
+    --spacing-100: calc(8 / 16 * 1rem);
+    --spacing-150: calc(12 / 16 * 1rem);
+    --spacing-300: calc(24 / 16 * 1rem);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: var(--color-grey-950);
+}
+a:hover, :focus {
+    color: var(--color-yellow);
+    text-decoration: none;
+}
+
+p {
+    padding-block-start: 12px;
+}
+.card {
+    display: grid;
+    row-gap: 24px;
+    background-color: var(--color-white);
+    padding: var(--spacing-300);
+    border-radius: 24px;
+    width: 327px;
+
+    border: 1px solid black;
+    box-shadow: 8px 8px black;
+
+    @media (width >= 600px ) {
+        width: 384px;
+    }
+
+}
+
+.card_content {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    display: grid;
+    gap: 12px;
+}
+
+.card img {
+    /* overflow: none; */
+    object-fit: cover;
+    height: 200px;
+    width: 279px;
+    border-radius: 10px;
+
+    @media (width >= 600px ) {
+        width: 100%;
+    }
+}
+
+.tag {
+    display: inline-block;
+    background-color: var(--color-yellow);
+    padding: 4px 12px;
+    width: min-content;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.card__date {
+    padding: 12px 0px;
+}
+
+.card__author {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.card__author img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
