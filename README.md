@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/danielrcoates/fem-blog-preview-card)
-- Live Site URL: [Netlify Live](https://singular-pixie-c6b05e.netlify.app/)
+- Live Site URL: [Netlify Live](https://drc-fem-blog-preview-card.netlify.app/)
 
 ### What I learned
 
